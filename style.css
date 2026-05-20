@@ -67,3 +67,33 @@ a {
     font-size: 18px;
     margin-top: auto;
 }
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 112px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+.info-main-text {
+    font-size: 36px;
+    font-weight: 900;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-basis: 0;  /* It sets the width, which is the size along the main axis, of .card by ignoring (if any) explicitly set width. It will be sized according to its content. If flex-basis: auto; is given, each .card would stretch along horizontal to take the extra space up to the .info's padding, since its parent centered the .card flex items along horizontal and gave a fixed gap between them. */
+}
+.card-img {
+    width: 168px;
+    height: 168px;
+    border-radius: 16px;
+}
