@@ -97,3 +97,22 @@ a {
     height: 168px;
     border-radius: 16px;
 }
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 128px 368px;
+    background: #E5E7EB;
+    color: #1F2937;
+}
+.testimonial-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.testimonial-author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 32px;
+}
