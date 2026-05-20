@@ -65,12 +65,12 @@ button {
     font-size: 18px;
     color: #F9FAF8;
     font-weight: 700;
-}
-.hero-cta-btn {
     background: #3882F6;
-    border: none;
     padding: 8px 32px;
     border-radius: 8px;
+    border: none;
+}
+.hero-cta-btn {
     margin-top: auto;
 }
 .info {
@@ -142,10 +142,7 @@ button {
     font-size: 24px;
 }
 .cta-btn {
-    background: #3882F6;
     border: 2px solid #F9FAF8;
-    padding: 8px 32px;
-    border-radius: 8px;
 }
 footer {
     background: #1F2937;
