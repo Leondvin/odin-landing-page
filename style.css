@@ -54,6 +54,9 @@ a {
     font-size: 48px;
     font-weight: 900;
 }
+.hero-secondary-text {
+    color: #E5E7EB;
+}
 button {
     font-size: 18px;
 }
